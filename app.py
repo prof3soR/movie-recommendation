@@ -6,7 +6,7 @@ import numpy as np
 import difflib
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer 
-st.title("Movie suggestion page")
+st.title("Movie suggestion page By K.Rohit Kumar")
 mov_list=pickle.load(open('movies.pkl','rb'))
 all_mov_list=mov_list['title'].values
 def suggest_movies(title):
